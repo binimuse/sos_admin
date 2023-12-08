@@ -16,6 +16,7 @@ class HomeView extends GetView<HomeController> {
     RxDouble? screenwidth = Get.width.obs;
     double? breakpoint = 600.0;
     AppConst obj = AppConst();
+    
     final AppConst appConstcontroller = Get.put(AppConst());
     if (screenwidth >= breakpoint) {
       return Scaffold(
@@ -30,6 +31,7 @@ class HomeView extends GetView<HomeController> {
                     child: const DarwerCode()),
                 Expanded(
                   child: SizedBox(
+                    
                     height: MediaQuery.of(context).size.height,
                     width: MediaQuery.of(context).size.width,
                     child: Column(

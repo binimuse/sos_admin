@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:sos_admin/app/modules/home/views/widget/dashboard.dart';
 import 'package:sos_admin/app/modules/login/views/login_view.dart';
 import 'package:sos_admin/app/modules/splash/views/splash_view.dart';
 
@@ -40,7 +41,7 @@ class AppConst extends GetxController implements GetxService {
   RxBool switchistrue = false.obs;
 
   var page = [
-    const SizedBox(),
+    const NewDefaultPage(),
     const SizedBox(),
     //   const NewDefaultPage(),
     //   // const DefaultPage(),//

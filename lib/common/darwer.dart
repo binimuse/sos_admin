@@ -36,6 +36,7 @@ class _DarwerCodeState extends State<DarwerCode> {
       return SafeArea(
         child: Drawer(
           backgroundColor: Colors.white,
+     
           shape: RoundedRectangleBorder(
               side: BorderSide(color: AppColors.whiteOff)),
           child: Column(
