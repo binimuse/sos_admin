@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:sos_admin/app/modules/home/views/widget/dashboard.dart';
 import 'package:sos_admin/app/modules/login/views/login_view.dart';
+import 'package:sos_admin/app/modules/sos/views/widget/basic_tables.dart';
 import 'package:sos_admin/app/modules/splash/views/splash_view.dart';
 
 class AppConst extends GetxController implements GetxService {
@@ -42,7 +43,9 @@ class AppConst extends GetxController implements GetxService {
 
   var page = [
     const NewDefaultPage(),
+
     const SizedBox(),
+    const BasicTablesPage(),
     //   const NewDefaultPage(),
     //   // const DefaultPage(),//
 
